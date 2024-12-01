@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background-color: hsl(168, 25%, 62%);
+}
+nav{
+    text-align: center;
+}
+img {
+    width: 8rem;
+    height: 8rem;
+    padding: 0.5rem;
+    border-radius: 1rem;
+}
+input {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border: 1px solid #333;
+    border-radius: 0.3rem;
+}
+
+button {
+    padding: 0.7rem 2rem;
+    font-size: 1rem;
+    background-color: #b03262;
+    color: #fff;
+    border: none;
+    border-radius: 0.3rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #753b41;
+}
+
+input,
+hr {
+    width: 100%;
+}
+
+select {
+    padding: 0.3rem;
+    border-radius: 0.3rem;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    gap: 1rem;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#cards, #card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+#Ojo {
+    width: 10rem;
+    height: 10rem;
+}
+
+#cards {
+    flex-wrap: wrap;
+}
+
+#card {
+    flex-direction: column;
+    padding: 0.7rem;
+    gap: 0.5rem;
+}
